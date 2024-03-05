@@ -1,5 +1,5 @@
 {
-  "name": "validador-cpf",
+  "name": "@jssousa/validador-cpf",
   "version": "1.0.0",
   "description": "Biblioteca para validar CPF.",
   "types": "dist/index.d.ts",
