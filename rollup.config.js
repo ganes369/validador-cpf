@@ -8,7 +8,7 @@ const banner = `
 @preserve
 Validador de CPF v<%= pkg.version %>
 https://github.com/ganes369/validador-cpf
-Copyright (c) 2034-present JS
+Copyright (c) 2024-present JS
 Released under the MIT license
 `;
 
