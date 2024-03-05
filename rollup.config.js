@@ -6,8 +6,8 @@ import license from "rollup-plugin-license";
 
 const banner = `
 @preserve
-Gerador e Validador de CPF v<%= pkg.version %>
-http://tiagoporto.github.io/gerador-validador-cpf
+Validador de CPF v<%= pkg.version %>
+https://github.com/ganes369/validador-cpf
 Copyright (c) 2034-present JS
 Released under the MIT license
 `;
