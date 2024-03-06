@@ -3,4 +3,7 @@ node_modules/
 test
 jest.config.js
 tsconfig.json
+rollup.config.js
+.gitignore
+.babelrc
 src

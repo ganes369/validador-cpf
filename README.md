@@ -4,16 +4,26 @@ Valida strings e números de CPF.
 
 ### USE
 
-`const ValideCpf = require('@jssousa/validador-cpf').default;
+`const { validatorCPF } = require("validador-formatt-cpf");
 
-import ValideCpf from '@jssousa/validador-cpf'`
+console.log(validatorCPF("06068102343", true));
+`
 
+ou
 
 `
-new ValidCpf('00000000000').validateCpf() // false
+import { validatorCPF } from "validador-formatt-cpf";
 
-new ValidCpf('000.000.000-00').validateCpf() // false
+console.log(validatorCPF("06068102343", true));
+`
 
-new ValidCpf('148.305.720-86').validateCpf() // true
+`
+validCpf('00000000000') // false
 
-new ValidCpf('14830572086').validateCpf() // true`
+validCpf('000.000.000-00') // false
+
+validCpf('148.305.720-86', false) // 14830572086
+
+validCpf('14830572086', true) // 148.305.720-86
+
+validCpf('14830572086') // true`
